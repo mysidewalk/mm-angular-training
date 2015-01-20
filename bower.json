@@ -1,0 +1,12 @@
+{
+  "name": "angular-starter",
+  "version": "1.0.0",
+  "authors": [
+    "rachel.e.hathaway@gmail.com"
+  ],
+  "license": "none",
+  "dependencies": {
+    "angular": "1.3.9",
+    "bootstrap": "3.3.2"
+  }
+}
