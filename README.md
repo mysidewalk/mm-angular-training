@@ -4,7 +4,7 @@ This project is meant to be a guide to learning beginner to intermediate level a
 
 ## Prerequisites
 - [git](http://git-scm.com/)
-- [Bower](http://bower.io/)
+- [Vagrant](http://vagrantup.com/)
 - python
 
 ## Get Started
