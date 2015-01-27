@@ -1,10 +1,12 @@
 server {
-	root /vagrant/www;
-	index index.html index.htm;
+        server_name localhost;
 
-	server_name localhost;
+        location / {
+          root /var/www/app;
+        }
 
-	location / {
-		try_files $uri $uri/ /index.html;
-	}
+        location /bower_components/ {
+          root /var/www/;
+        }
+
 }
