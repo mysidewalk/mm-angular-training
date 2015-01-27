@@ -17,6 +17,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     puppet.manifest_file  = "base.pp"
   end
 
-  config.vm.synced_folder "app", "/var/www"
+  config.vm.provision :shell, :path => "etc/scripts/bootstrap.sh"
+  config.vm.provision :shell, :inline => "cd /var/www && bower install --allow-root", :run => "always"
+
+  config.vm.synced_folder ".", "/var/www"
 
 end
