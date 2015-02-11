@@ -1,6 +1,6 @@
 ## Overview
 
-This project is meant to be a guide to learning beginner to intermediate level angularjs concepts. Similar to the [PhoneCat Tutorial App](https://docs.angularjs.org/tutorial) ([Repo](https://github.com/angular/angular-phonecat)), lessons are based off tagged commits. 
+These exercises are meant to accompany a beginner to intermediate level angularjs course. Similar to the [PhoneCat Tutorial App](https://docs.angularjs.org/tutorial) ([Repo](https://github.com/angular/angular-phonecat)), lessons are based off tagged commits. 
 
 ## Prerequisites
 - [git](http://git-scm.com/)
