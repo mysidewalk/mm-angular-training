@@ -37,5 +37,5 @@ Checkout a step with `git checkout xx` where `xx` is the step number.
 4. Modifying views/index.html, move the initialization of 'heading' to the controller
 5. Move the expression from the form's ng-submit attribute to a function in the controller. Make sure the function is available to the template and is called on ng-submit.
 6. Add a new controller, ClockCtrl
-7. Using the $interval service, output the time to the view in hours:minutes:seconds format
+7. Using the $interval service, output the time to the view in hours:minutes:seconds format, updating every second
 
