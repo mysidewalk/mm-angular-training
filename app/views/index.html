@@ -1,5 +1,24 @@
-<div class="row">
-  <div class="col-xs-12">
-    <h1>This is my first view!</h1>
+<div class="row" ng-init="heading = 'Data binding is fun!'">
+  <div class="col-xs-4">
+    <h1>{{ heading }}</h1>
+    <form>
+      <div class="form-group">
+        <label for="first">Email address</label>: {{ 'bind me to first name' }}
+        <input type="text" class="form-control" id="first" placeholder="First name">
+      </div>
+      <div class="form-group">
+        <label for="last">Email address</label>: {{ 'bind me to last name' }}
+        <input type="text" class="form-control" id="last" placeholder="Last name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>: {{ 'bind me to first email' }}
+        <input type="email" class="form-control" id="email" placeholder="Email address">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>: {{ 'bind me to first password' }}
+        <input type="password" class="form-control" id="password" placeholder="Password">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
   </div>
 </div>
