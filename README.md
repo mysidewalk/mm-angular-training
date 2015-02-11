@@ -10,7 +10,7 @@ This project is meant to be a guide to learning beginner to intermediate level a
 ## Get Started
 - `git clone https://github.com/rachelhathaway/mm-angular-training.git`
 - `cd mm-angular-training`
-- `vagrant up`
+- `python -m SimpleHTTPServer`
 
 ## Steps
 Checkout a step with `git checkout xx` where `xx` is the step number.
@@ -26,7 +26,7 @@ Checkout a step with `git checkout xx` where `xx` is the step number.
 5. Using $routeProvider, add your first route. Set the templateUrl to views/index.html.
 
 ### 02 - Templates, scope, and data binding
-1. In views/index.html, add the ng-model attribute to each text field
+1. Add the ng-model attribute to each text field
 2. Update the string expression preceding each field to reference its field’s ng-model value
 3. Change the heading text on form submission
 
