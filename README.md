@@ -10,6 +10,7 @@ These exercises are meant to accompany a beginner to intermediate level angularj
 ## Get Started
 - `git clone https://github.com/rachelhathaway/mm-angular-training.git`
 - `cd mm-angular-training`
+- `bower install`
 - `python -m SimpleHTTPServer`
 
 ## Steps
