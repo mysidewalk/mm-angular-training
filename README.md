@@ -10,7 +10,7 @@ These exercises are meant to accompany a beginner to intermediate level angularj
 ## Get Started
 - `git clone https://github.com/rachelhathaway/mm-angular-training.git`
 - `cd mm-angular-training`
-- `vagrant up`
+- `python -m SimpleHTTPServer`
 
 ## Steps
 Checkout a step with `git checkout xx` where `xx` is the step number.
