@@ -1,7 +1,12 @@
-<div class="row" ng-init="heading = 'Data binding is fun!'">
-  <div class="col-xs-6">
-    <h1>{{ heading }}</h1>
-    <form ng-submit="heading = 'You\'re doing it!';">
+<div class="row" ng-controller="ClockCtrl">
+  <div class="col-xs-12 clearfix">
+    <h1 class="pull-right">{{ clock.now }}</h1>
+  </div>
+</div>
+<div class="row" ng-controller="AppCtrl">
+  <div class="col-xs-12">
+    <h1>{{ view.heading }}</h1>
+    <form ng-submit="submit()">
       <div class="form-group">
         <label for="first">First name:</label> {{ first }}
         <input type="text" class="form-control" id="first" placeholder="First name" ng-model="first">
