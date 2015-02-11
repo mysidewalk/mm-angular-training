@@ -10,7 +10,7 @@ This project is meant to be a guide to learning beginner to intermediate level a
 ## Get Started
 - `git clone https://github.com/rachelhathaway/mm-angular-training.git`
 - `cd mm-angular-training`
-- `vagrant up`
+- `python -m SimpleHTTPServer`
 
 ## Steps
 Checkout a step with `git checkout xx` where `xx` is the step number.
