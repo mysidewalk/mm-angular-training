@@ -1,22 +1,22 @@
 <div class="row" ng-init="heading = 'Data binding is fun!'">
-  <div class="col-xs-4">
+  <div class="col-xs-6">
     <h1>{{ heading }}</h1>
-    <form>
+    <form ng-submit="heading = 'You\'re doing it!';">
       <div class="form-group">
-        <label for="first">Email address</label>: {{ 'bind me to first name' }}
-        <input type="text" class="form-control" id="first" placeholder="First name">
+        <label for="first">First name:</label> {{ first }}
+        <input type="text" class="form-control" id="first" placeholder="First name" ng-model="first">
       </div>
       <div class="form-group">
-        <label for="last">Email address</label>: {{ 'bind me to last name' }}
-        <input type="text" class="form-control" id="last" placeholder="Last name">
+        <label for="last">Last name:</label> {{ last }}
+        <input type="text" class="form-control" id="last" placeholder="Last name" ng-model="last">
       </div>
       <div class="form-group">
-        <label for="email">Email address</label>: {{ 'bind me to first email' }}
-        <input type="email" class="form-control" id="email" placeholder="Email address">
+        <label for="email">Email address:</label> {{ email }}
+        <input type="email" class="form-control" id="email" placeholder="Email address" ng-model="email">
       </div>
       <div class="form-group">
-        <label for="password">Password</label>: {{ 'bind me to first password' }}
-        <input type="password" class="form-control" id="password" placeholder="Password">
+        <label for="password">Password:</label> {{ password }}
+        <input type="password" class="form-control" id="password" placeholder="Password" ng-model="password">
       </div>
       <button type="submit" class="btn btn-default">Submit</button>
     </form>
