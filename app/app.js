@@ -1,13 +1,11 @@
 angular.module('app', ['ngRoute'])
 
-.config(['$locationProvider', '$routeProvider', 
-  function($locationProvider, $routeProvider) {
-
-    $locationProvider.html5Mode(true);
+.config(['$routeProvider', 
+  function($routeProvider) {
 
     $routeProvider
       .when('/', {
-        templateUrl: 'views/index.html'
+        templateUrl: 'app/views/index.html'
       });
 
   }
