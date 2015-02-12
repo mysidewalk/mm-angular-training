@@ -17,14 +17,12 @@ angular.module('controllers', [])
 .controller('ClockCtrl', ['$scope', '$interval',
   function($scope, $interval) {
 
-    var date = new Date();
     $scope.clock = {
-      now: date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds()
+      now: new Date()
     };
 
     var updateClock = function() {
-      date = new Date();
-      $scope.clock.now = date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds();
+      $scope.clock.now = new Date();
     };
 
     $interval(function() {

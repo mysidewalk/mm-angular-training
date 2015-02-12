@@ -1,6 +1,6 @@
 <div class="row" ng-controller="ClockCtrl">
   <div class="col-xs-12 clearfix">
-    <h1 class="pull-right">{{ clock.now }}</h1>
+    <h1 class="pull-right">{{ clock.now | date: 'h:mm:ss' }}</h1>
   </div>
 </div>
 <div class="row" ng-controller="AppCtrl">
