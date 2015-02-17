@@ -1,4 +1,4 @@
-angular.module('app', ['ngRoute', 'controllers'])
+angular.module('app', ['ngRoute', 'controllers', 'filters'])
 
 .config(['$routeProvider', 
   function($routeProvider) {
@@ -9,6 +9,9 @@ angular.module('app', ['ngRoute', 'controllers'])
       })
       .when('/clock', {
         templateUrl: 'app/views/clock.html'
+      })
+      .when('/piglatin', {
+        templateUrl: '/app/views/piglatin.html'
       });
 
   }
