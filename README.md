@@ -40,3 +40,6 @@ Checkout a step with `git checkout xx` where `xx` is the step number.
 6. Add a new controller, ClockCtrl
 7. Using the $interval service, output the time to the view in hours:minutes:seconds format, updating every second
 
+### b.04 - Filters
+1. Convert a string into pig latin using a filter.
+
