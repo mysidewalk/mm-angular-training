@@ -35,7 +35,6 @@ angular.module('filters', [])
     return first + middle + last;
   };
   var translate = function(words) {
-    var word;
     var _words = [];
     var split = words.split(' ');
     for (var i = 0; i < split.length; i++) {
