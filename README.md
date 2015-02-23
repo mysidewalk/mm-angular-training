@@ -43,3 +43,7 @@ Checkout a step with `git checkout xx` where `xx` is the step number.
 ### b.04 - Filters
 1. Convert a string into pig latin using a filter.
 
+### b.05 - Directives 1
+1. Given a .json file with a set of articles, create an article directive that outputs the title, body, author, and date of each article.
+2. Your directive should have isolate scope and use templateUrl.
+
