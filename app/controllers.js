@@ -34,9 +34,23 @@ angular.module('controllers', [])
 
 .controller('PigLatinCtrl', ['$scope', 
   function($scope) {
+
     $scope.view = {
       text: 'This is a paragraph with some words. I\'d really like a cookie but I need to lose ' +
         'some of this fat around my midsection. When is lunch gonna get here? This better work.'
-    }
+    };
+
+  }
+])
+
+.controller('ArticlesCtrl', ['$scope', '$http', '$log',
+  function($scope, $http, $log) {
+
+    $scope.articles = [];
+
+    $http.get('app/data/articles.json').success(function(articles) {
+      $scope.articles = articles.articles;
+    });
+
   }
 ]);
