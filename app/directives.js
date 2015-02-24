@@ -5,6 +5,7 @@ angular.module('directives', [])
     scope: {
       article: '='
     }, 
+    transclude: true,
     templateUrl: '/app/partials/article.html'
   }
 });
