@@ -7,4 +7,4 @@ angular.module('directives', [])
     }, 
     templateUrl: '/app/partials/article.html'
   }
-})
+});
